@@ -1,0 +1,38 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<meta charset="utf-8"> 
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+    <title>Fortune Cookies</title>
+
+</head>
+
+<body>
+    <h1>Welcome to the Fortune Cookie Factory</h1>
+    <div id="rotating"></div><img src="images/cookie.png" alt="Cookie Image" height="142" width="142"></div>
+    <div id="fortunediv"></div>
+
+    <div id="addFortune">
+        <form id="addFortuneForm" >
+            <input type="text" id="inputname" placeholder="Name" class="userbox" required>
+            <br>
+            <input type="text" id="inputfortune" placeholder="Fortune" class="fortunebox" required></input>
+            <br>
+            <button type="button" id="fortuneAdder">Submit</button>
+        </form>
+        <div id="cookie-total"></div>
+
+
+
+
+    </div>
+    <div id="banner">Past Fortunes</div></br></br>
+    <ul id="runnerholder">
+        <div id="runner"></div>
+    </ul>
+
+    <script src="database.js"></script>
+    <script src="myscripts.js"></script>
+</body>
+</html>

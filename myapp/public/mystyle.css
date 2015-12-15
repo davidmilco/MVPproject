@@ -1,0 +1,135 @@
+#fortunediv {
+  height: 80px;
+  width: 400px;
+  font-size:25px;
+  margin-left:80px;
+  padding-top: 10px;
+  font-family:bold;
+  border-bottom: 2px solid #eeeeee;
+  border-top: 2px solid #eeeeee;
+  border-left: 2px solid #eeeeee;
+  border-right: 2px solid #eeeeee;
+}
+
+#runnerholder{
+    margin-left:80px;
+}
+
+#cookie-total{
+    margin-left:80px;
+}
+
+li{
+    list-style-type: none;
+    margin-left:80px;
+    width: 275px;
+    margin: 0;
+    padding: 0;
+    padding-top: 3px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eeeeee;
+    border-top: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    border-right: 1px solid #eeeeee;
+}
+
+#banner{
+    
+    font-size:2em;
+      margin-left:175px;
+    text-decoration: underline;
+}
+
+body{
+background-color: #1E5F7B;
+}
+
+img{
+    margin-left: 200px;
+    transition: width 2s;
+}
+
+img:hover{
+
+    transform: rotate(40deg);
+}
+
+.userbox {
+    width:400px;
+    height:35px;
+    font-size:25px;
+    margin: 40px 10px 10px 80px;
+}
+
+.fortunebox {
+    width:400px;
+    height:35px;
+    font-size:25px;
+    margin:1px 10px 10px 80px;
+}
+
+button {
+      margin-left:200px;
+  background: #ed7315;
+  background-image: -webkit-linear-gradient(top, #ed7315, #c9b21a);
+  background-image: -moz-linear-gradient(top, #ed7315, #c9b21a);
+  background-image: -ms-linear-gradient(top, #ed7315, #c9b21a);
+  background-image: -o-linear-gradient(top, #ed7315, #c9b21a);
+  background-image: linear-gradient(to bottom, #ed7315, #c9b21a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #71a334;
+  text-decoration: none;
+}
+
+@keyframes rotating {
+  0%,100% {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    -o-transform: rotate(10deg);
+  }
+}
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  0%,100% {
+    transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -webkit-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+  }
+}
+img {
+
+     animation-timing-function:ease-in-out;
+  -webkit-animation: rotating 1s linear infinite;
+  -moz-animation: rotating 1s linear infinite;
+  -ms-animation: rotating 1s linear infinite;
+  -o-animation: rotating 1s linear infinite;
+  animation: rotating 1s linear infinite;
+}
